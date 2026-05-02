@@ -17,6 +17,7 @@ class Hello
             return a+b+c+d;
         }
 };
+
 int main()
 {
     Hello hobj;
@@ -26,4 +27,5 @@ int main()
     cout<<hobj.AdditionFour(10,20,30,40)<<"\n";
 
     return 0;
+
 }
